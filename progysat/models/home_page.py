@@ -21,7 +21,9 @@ class HomePage(Page, models.Model):
         if not first_news:
             first_news = current_language_news.first()
         if first_news:
-            news_list = [first_news] + list(News.objects.exclude(id=first_news.id)[:2])
+            news_list = [first_news] + list(
+                current_language_news.exclude(id=first_news.id)[:2]
+            )
         else:
             news_list = current_language_news[:3]
         context["news_list"] = news_list
