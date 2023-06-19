@@ -74,7 +74,7 @@ class CustomLocaleMiddleware(LocaleMiddleware):
     def process_request(self, request):
         """Deactivate languages other than fr and pt-br"""
         super().process_request(request)
-        if request.LANGUAGE_CODE not in ["fr", "pt-br"]:
+        if request.LANGUAGE_CODE not in ["fr", "pt-br", "en"]:
             language = settings.LANGUAGE_CODE
             translation.activate(language)
             request.LANGUAGE_CODE = translation.get_language()

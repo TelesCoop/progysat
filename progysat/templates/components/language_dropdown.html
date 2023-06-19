@@ -7,7 +7,7 @@
     <div class="dropdown" id="language-dropdown">
       <div class="dropdown-trigger">
         <button onclick="toggleLanguageDropdown()" id="dropdown-toggle" class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
-          <span style="line-height: 0.9rem;">🇫🇷<br>🇧🇷</span>
+          <span style="line-height: 0.9rem;">🇬🇧🇫🇷<br>🇳🇱🇧🇷</span>
           <span class="icon is-small down" style="margin-left: 0.25em;margin-right: calc(-0.5em - 1px);">
             {% include 'img/angle-down.svg' %}
           </span>
@@ -20,7 +20,7 @@
       <div class="dropdown-menu" id="dropdown-menu2" role="menu" style="min-width: 6.1rem">
         <div class="dropdown-content">
           {% for locale in locales %}
-            {% if locale.language_code == 'fr' or  locale.language_code == 'pt-br' %}
+          {% if locale.language_code == 'fr' or  locale.language_code == 'pt-br' or  locale.language_code == 'en' %}
             <div class="dropdown-item">
               <a
                 class="navbar-item"
@@ -32,7 +32,7 @@
               {{ locale }}
               </a>
             </div>
-            {% endif %}
+          {% endif %}
           {% endfor %}
         </div>
       </div>
