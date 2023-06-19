@@ -20,6 +20,7 @@
       <div class="dropdown-menu" id="dropdown-menu2" role="menu" style="min-width: 6.1rem">
         <div class="dropdown-content">
           {% for locale in locales %}
+            {% if locale.language_code == 'fr' or  locale.language_code == 'pt-br' %}
             <div class="dropdown-item">
               <a
                 class="navbar-item"
@@ -31,6 +32,7 @@
               {{ locale }}
               </a>
             </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
