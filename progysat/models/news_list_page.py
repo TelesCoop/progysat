@@ -6,6 +6,7 @@ from wagtail.contrib.routable_page.models import RoutablePageMixin, route
 from wagtail.models import Page
 
 from progysat.models.news import News
+from progysat.utils import objects_for_current_language
 
 
 class NewsListPage(RoutablePageMixin, Page):
@@ -20,7 +21,7 @@ class NewsListPage(RoutablePageMixin, Page):
     @route(r"^(.*)/$", name="news")
     def access_news_page(self, request, news_slug):
         try:
-            news = News.objects.get(slug=news_slug)
+            news = objects_for_current_language(News).get(slug=news_slug)
         except (News.DoesNotExist, News.MultipleObjectsReturned):
             raise Http404
 
