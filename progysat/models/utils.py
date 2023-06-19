@@ -151,7 +151,7 @@ class ModelWithTranslatedName(models.Model):
 
     @property
     def name(self):
-        return getattr(self, f"name_{translation.get_language()}")
+        return getattr(self, f"name_{translation.get_language().replace('-', '_')}")
 
 
 class MultiLanguageTag(ModelWithTranslatedName):
