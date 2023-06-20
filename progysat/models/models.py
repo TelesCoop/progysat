@@ -74,7 +74,9 @@ class Thematic(MultiLanguageTag):
     def description(self):
         from django.utils import translation
 
-        return getattr(self, f"description_{translation.get_language()}")
+        return getattr(
+            self, f"description_{translation.get_language().replace('-', '_')}"
+        )
 
     def to_dict(self):
         if self.image:
