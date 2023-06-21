@@ -180,9 +180,7 @@ msgid "Message"
 msgstr "Message"
 
 #: progysat/templates/progysat/contact_page.html:115
-msgid ""
-"J'autorise ce site à traiter mes données transmises via ce formulaire et les "
-"transférer à Progysat"
+msgid "J'autorise ce site à traiter mes données transmises via ce formulaire et les transférer à Progysat"
 msgstr "I authorize this website to use the data collected by this Form"
 
 #: progysat/templates/progysat/home_page.html:27
