@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-09 10:30+0200\n"
+"POT-Creation-Date: 2023-06-21 07:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,6 +36,7 @@ msgid "Actualités"
 msgstr ""
 
 #: progysat/templates/components/breadcrumbs.html:12
+#: progysat/templates/components/navbar.html:66
 msgid "Thématiques"
 msgstr ""
 
@@ -55,7 +56,7 @@ msgstr ""
 msgid "design par"
 msgstr ""
 
-#: progysat/templates/components/navbar.html:89
+#: progysat/templates/components/navbar.html:87
 msgid "ressources"
 msgstr ""
 
@@ -72,12 +73,12 @@ msgstr ""
 msgid "Télécharger le PDF"
 msgstr ""
 
-#: progysat/templates/components/resource_card.html:38
+#: progysat/templates/components/resource_card.html:39
 #: progysat/templates/elements/resources_page/resources_list_view.html:58
 msgid "Ressource Progysat"
 msgstr ""
 
-#: progysat/templates/components/resource_card.html:47
+#: progysat/templates/components/resource_card.html:48
 #: progysat/templates/elements/resources_page/resources_list_view.html:69
 msgid "Accéder à la ressource"
 msgstr ""
@@ -122,63 +123,65 @@ msgstr ""
 msgid "Formulaire de contact"
 msgstr ""
 
-#: progysat/templates/progysat/contact_page.html:28
+#: progysat/templates/progysat/contact_page.html:33
 msgid "Les champs comprenant une astérisque (*) sont obligatoires."
 msgstr ""
 
-#: progysat/templates/progysat/contact_page.html:36
+#: progysat/templates/progysat/contact_page.html:40
 msgid "Prénom"
 msgstr ""
 
-#: progysat/templates/progysat/contact_page.html:42
-msgid "Adresse e-mail"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:50
+#: progysat/templates/progysat/contact_page.html:49
 msgid "Nom"
 msgstr ""
 
-#: progysat/templates/progysat/contact_page.html:56
-msgid "Pays"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:65
-msgid "Quelle est la raison de votre prise de contact ?"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:69
-msgid "Demande d'information sur PROGYSAT"
+#: progysat/templates/progysat/contact_page.html:61
+msgid "Adresse e-mail"
 msgstr ""
 
 #: progysat/templates/progysat/contact_page.html:70
-msgid "Proposition de collaboration"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:71
-msgid "Partage d'Actualités"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:72
-msgid "Partage de Ressource"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:73
-msgid "Avis sur ce site web"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:74
-msgid "Autre"
+msgid "Pays"
 msgstr ""
 
 #: progysat/templates/progysat/contact_page.html:82
+msgid "Quelle est la raison de votre prise de contact ?"
+msgstr ""
+
+#: progysat/templates/progysat/contact_page.html:86
+msgid "Demande d'information sur PROGYSAT"
+msgstr ""
+
+#: progysat/templates/progysat/contact_page.html:87
+msgid "Proposition de collaboration"
+msgstr ""
+
+#: progysat/templates/progysat/contact_page.html:88
+msgid "Partage d'Actualités"
+msgstr ""
+
+#: progysat/templates/progysat/contact_page.html:89
+msgid "Partage de Ressource"
+msgstr ""
+
+#: progysat/templates/progysat/contact_page.html:90
+msgid "Avis sur ce site web"
+msgstr ""
+
+#: progysat/templates/progysat/contact_page.html:91
+msgid "Autre"
+msgstr ""
+
+#: progysat/templates/progysat/contact_page.html:102
 msgid "Message"
 msgstr ""
 
-#: progysat/templates/progysat/contact_page.html:92
-msgid "J'autorise ce site à conserver mes données transmises via ce formulaire"
+#: progysat/templates/progysat/contact_page.html:115
+msgid ""
+"J'autorise ce site à traiter mes données transmises via ce formulaire et les "
+"transférer à Progysat"
 msgstr ""
 
-#: progysat/templates/progysat/home_page.html:26
+#: progysat/templates/progysat/home_page.html:27
 msgid "Toutes les actualités"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-09 10:30+0200\n"
+"POT-Creation-Date: 2023-06-21 07:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,12 +36,13 @@ msgid "Actualités"
 msgstr "News"
 
 #: progysat/templates/components/breadcrumbs.html:12
+#: progysat/templates/components/navbar.html:66
 msgid "Thématiques"
-msgstr "Thematics"
+msgstr "Themes"
 
 #: progysat/templates/components/footer.html:17
 msgid "Je donne mon avis sur ce site"
-msgstr "Give my opinion about this website"
+msgstr "My opinion on this website"
 
 #: progysat/templates/components/footer.html:20
 msgid "Suivez-nous"
@@ -55,7 +56,7 @@ msgstr "Developed by"
 msgid "design par"
 msgstr "designed by"
 
-#: progysat/templates/components/navbar.html:89
+#: progysat/templates/components/navbar.html:87
 msgid "ressources"
 msgstr "resources"
 
@@ -72,19 +73,19 @@ msgstr "PDF file"
 msgid "Télécharger le PDF"
 msgstr "Download PDF"
 
-#: progysat/templates/components/resource_card.html:38
+#: progysat/templates/components/resource_card.html:39
 #: progysat/templates/elements/resources_page/resources_list_view.html:58
 msgid "Ressource Progysat"
 msgstr "Progysat resource"
 
-#: progysat/templates/components/resource_card.html:47
+#: progysat/templates/components/resource_card.html:48
 #: progysat/templates/elements/resources_page/resources_list_view.html:69
 msgid "Accéder à la ressource"
 msgstr "Go to resource"
 
 #: progysat/templates/elements/resources_page/filters.html:8
 msgid "Les thématiques qui m'intéressent"
-msgstr "Thematics "
+msgstr "My themes of interest"
 
 #: progysat/templates/elements/resources_page/filters.html:17
 msgid "Toutes"
@@ -92,127 +93,132 @@ msgstr "All"
 
 #: progysat/templates/elements/resources_page/filters.html:23
 msgid "Recherche par mot-clé"
-msgstr ""
+msgstr "Search by key word"
 
 #: progysat/templates/elements/resources_page/resources_list_view.html:20
 msgid "Plusieurs thématiques"
-msgstr "Multiple thematics"
+msgstr "Multiple themes"
 
 #: progysat/templates/elements/resources_page/resources_list_view.html:21
 msgid "Sans thématique"
-msgstr "No thematic"
+msgstr "No specific theme"
 
 #: progysat/templates/elements/resources_page/resources_list_view.html:42
 msgid "afficher"
-msgstr ""
+msgstr "show"
 
 #: progysat/templates/elements/resources_page/resources_list_view.html:42
 msgid "moins"
-msgstr ""
+msgstr "less"
 
 #: progysat/templates/elements/resources_page/resources_list_view.html:42
 msgid "plus"
-msgstr ""
+msgstr "more"
 
 #: progysat/templates/elements/resources_page/resources_list_view.html:51
 msgid "Source"
-msgstr ""
+msgstr "Source"
 
 #: progysat/templates/progysat/contact_page.html:27
 msgid "Formulaire de contact"
-msgstr ""
+msgstr "Contact Form"
 
-#: progysat/templates/progysat/contact_page.html:28
+#: progysat/templates/progysat/contact_page.html:33
 msgid "Les champs comprenant une astérisque (*) sont obligatoires."
-msgstr ""
+msgstr "(*) mandatory field"
 
-#: progysat/templates/progysat/contact_page.html:36
+#: progysat/templates/progysat/contact_page.html:40
 msgid "Prénom"
-msgstr ""
+msgstr "First name"
 
-#: progysat/templates/progysat/contact_page.html:42
-msgid "Adresse e-mail"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:50
+#: progysat/templates/progysat/contact_page.html:49
 msgid "Nom"
-msgstr ""
+msgstr "Last name"
 
-#: progysat/templates/progysat/contact_page.html:56
-msgid "Pays"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:65
-msgid "Quelle est la raison de votre prise de contact ?"
-msgstr ""
-
-#: progysat/templates/progysat/contact_page.html:69
-msgid "Demande d'information sur PROGYSAT"
-msgstr ""
+#: progysat/templates/progysat/contact_page.html:61
+msgid "Adresse e-mail"
+msgstr "E-mail address"
 
 #: progysat/templates/progysat/contact_page.html:70
-msgid "Proposition de collaboration"
-msgstr ""
+msgid "Pays"
+msgstr "Country"
 
-#: progysat/templates/progysat/contact_page.html:71
+#: progysat/templates/progysat/contact_page.html:82
+msgid "Quelle est la raison de votre prise de contact ?"
+msgstr "Reason for your contact"
+
+#: progysat/templates/progysat/contact_page.html:86
+msgid "Demande d'information sur PROGYSAT"
+msgstr "Information on Progysat"
+
+#: progysat/templates/progysat/contact_page.html:87
+msgid "Proposition de collaboration"
+msgstr "Collaboration proposal"
+
+#: progysat/templates/progysat/contact_page.html:88
 #, fuzzy
 #| msgid "Actualités"
 msgid "Partage d'Actualités"
 msgstr "News"
 
-#: progysat/templates/progysat/contact_page.html:72
+#: progysat/templates/progysat/contact_page.html:89
 #, fuzzy
 #| msgid "ressources"
 msgid "Partage de Ressource"
 msgstr "resources"
 
-#: progysat/templates/progysat/contact_page.html:73
+#: progysat/templates/progysat/contact_page.html:90
 msgid "Avis sur ce site web"
-msgstr ""
+msgstr "Opinion on this website"
 
-#: progysat/templates/progysat/contact_page.html:74
+#: progysat/templates/progysat/contact_page.html:91
 msgid "Autre"
-msgstr ""
+msgstr "Other"
 
-#: progysat/templates/progysat/contact_page.html:82
+#: progysat/templates/progysat/contact_page.html:102
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
-#: progysat/templates/progysat/contact_page.html:92
-msgid "J'autorise ce site à conserver mes données transmises via ce formulaire"
-msgstr ""
+#: progysat/templates/progysat/contact_page.html:115
+#, fuzzy
+#| msgid ""
+#| "J'autorise ce site à conserver mes données transmises via ce formulaire"
+msgid ""
+"J'autorise ce site à traiter mes données transmises via ce formulaire et les "
+"transférer à Progysat"
+msgstr "I authorize this website to use the data collected by this Form"
 
-#: progysat/templates/progysat/home_page.html:26
+#: progysat/templates/progysat/home_page.html:27
 msgid "Toutes les actualités"
 msgstr "All news"
 
 #: progysat/templates/progysat/news_list_page.html:19
 msgid "Aucune actualité publiée"
-msgstr ""
+msgstr "No available News"
 
 #: progysat/templates/progysat/news_page.html:25
 msgid "Actualités recommandées"
-msgstr ""
+msgstr "Recommended News"
 
 #: progysat/templates/progysat/news_page.html:36
 msgid "Ressources recommandées"
-msgstr ""
+msgstr "Recommended resources"
 
 #: progysat/templates/progysat/resources_page.html:12
 msgid "Les ressources"
-msgstr ""
+msgstr "Resouces"
 
 #: progysat/templates/progysat/resources_page.html:21
 msgid "résultats correspondent à votre recherche"
-msgstr ""
+msgstr "results match your search"
 
 #: progysat/templates/progysat/resources_page.html:24
 msgid "aucun résultat correspondant"
-msgstr ""
+msgstr "no result match your search"
 
 #: progysat/templates/progysat/thematics_list_page.html:30
 msgid "Voir les détails"
-msgstr ""
+msgstr "See details"
 
-#~ msgid "Les ressources qui m'intéressent"
-#~ msgstr "Resource corresponding to my profile"
+#~ msgid "Sharing News"
+#~ msgstr "News"
