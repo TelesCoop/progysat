@@ -180,9 +180,6 @@ msgid "Message"
 msgstr "Message"
 
 #: progysat/templates/progysat/contact_page.html:115
-#, fuzzy
-#| msgid ""
-#| "J'autorise ce site à conserver mes données transmises via ce formulaire"
 msgid ""
 "J'autorise ce site à traiter mes données transmises via ce formulaire et les "
 "transférer à Progysat"
