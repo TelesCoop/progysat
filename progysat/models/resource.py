@@ -120,10 +120,10 @@ class Resource(TranslatableMixin, index.Indexed, TimeStampedModel):
 
     @property
     def link(self):
-        if self.file:
-            return self.file.url
         if self.source_link:
             return self.source_link
+        if self.file:
+            return self.file.url
 
     @property
     def is_download(self):
