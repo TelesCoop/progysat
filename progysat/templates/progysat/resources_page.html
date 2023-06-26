@@ -137,7 +137,9 @@
                       //  SEARCH INPUT
                       if (this.searchInput) {
                           var searchInput = this.searchInput.toLowerCase();
-                          var words = resource.name.toLowerCase().split(" ");
+                          // remove special chars
+                          searchInput = searchInput.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
+                          var words = resource.name.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '').toLowerCase().split(" ");
                           if (!words.some(function (word) {
                               return startsWith(word, searchInput)
                           })) {
