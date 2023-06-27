@@ -32,9 +32,15 @@ class ContactPage(Page):
         if request.method == "POST":
             form = ContactForm(request.POST)
             if form.is_valid():
+                data = form.cleaned_data
+                message = (
+                    f"Message de {data['firstname']} {data['lastname']} ({data['email']}) "
+                    f"provenant de {data['country']}"
+                    f"\n\n{data['message']}"
+                )
                 send_mail(
-                    subject=f"[Progysat] {form.cleaned_data['subject']}",
-                    message=form.cleaned_data["message"],
+                    subject=f"[Progysat] {data['subject']}",
+                    message=message,
                     from_email=settings.DEFAULT_FROM_EMAIL,
                     recipient_list=settings.CONTACT_RECIPIENTS,
                 )
