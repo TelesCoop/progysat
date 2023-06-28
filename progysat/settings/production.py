@@ -1,4 +1,5 @@
 from django.contrib.staticfiles.storage import ManifestStaticFilesStorage
+from django.http import Http404
 
 from .base import *  # noqa: F401,F403
 
@@ -29,6 +30,7 @@ ROLLBAR = {
     "environment": "development" if DEBUG else "production",
     "root": BASE_DIR,  # noqa: F405
     "ignorable_404_urls": "",
+    "exception_level_filters": [(Http404, "ignore")],
 }
 import rollbar  # noqa: E402
 
