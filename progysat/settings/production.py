@@ -22,7 +22,7 @@ except ImportError:
     pass
 
 MIDDLEWARE.append(  # noqa: F405
-    "rollbar.contrib.django.middleware.RollbarNotifierMiddleware"
+    "rollbar.contrib.django.middleware.RollbarNotifierMiddlewareExcluding404"
 )
 
 ROLLBAR = {
